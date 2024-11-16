@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>My Portfolio website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">MY PORTFOLIO</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">ProjectWorks</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sampath</span><br>Web Developer</h1>
+
+                  
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/dhytharam-sampath-reddy-2a6067319/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    
+                    <a href="https://github.com/sampathreddy15" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/images.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Sampath</h2>
+                        <p class="about__text">A motivated and detail-oriented aspiring Software Developer and 
+                            Passionate learning new technologies and looking for
+                            an opportunity to contribute to development projects while
+                            growing my skills.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                  <div class="skills__data" data-skill="95">
+                    <div class="skills__names">
+                      <i class="skills__icon">🔧</i>
+                      <span class="skills__name">HTML</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__html"></span>
+                    </div>
+                  </div>
+              
+                  <div class="skills__data" data-skill="85">
+                    <div class="skills__names">
+                      <i class="skills__icon">🎨</i>
+                      <span class="skills__name">CSS</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__css"></span>
+                    </div>
+                  </div>
+              
+                  <div class="skills__data" data-skill="65">
+                    <div class="skills__names">
+                      <i class="skills__icon">💻</i>
+                      <span class="skills__name">JavaScript</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__js"></span>
+                    </div>
+                  </div>
+              
+                  <div class="skills__data" data-skill="85">
+                    <div class="skills__names">
+                      <i class="skills__icon">🎨</i>
+                      <span class="skills__name">UX/UI Design</span>
+                    </div>
+                    <div class="skills__bar">
+                      <span class="skills__percentage skills__ux"></span>
+                    </div>
+                  </div>
+                </div>
+              </section>              
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Project Works</h2>
+            
+                <div class="work__container">
+                    <!-- Project 1 -->
+                    <div class="work__item">
+                        <h3 class="work__name">SALES ANALYSIS OF ELECTRONIC PRODUCTS DATA ON AMAZON 
+                            <span class="work__tech">(Data Visualization with R)</span>
+                        </h3>
+                        <p class="work__description">
+                            <ul>
+                                <li>The analysis explores the sales data of electronics on Amazon, focusing on:</li>
+                                <li>User ratings, item categories, and sales trends over the years.</li>
+                                <li>Identifying the best and worst performing brands and categories.</li>
+                                <li>Visualizing sales distribution with pie charts and count plots.</li>
+                            </ul>
+                        </p>
+                    </div>
+            
+                    <!-- Project 2 -->
+                    <div class="work__item">
+                        <h3 class="work__name">AI POWERED ASSESSMENT</h3>
+                        <p class="work__description">
+                            <ul>
+                                <li>An online platform for teachers and students to conduct and participate in tests.</li>
+                                <li>Teachers can log in, create 10 multiple-choice questions, and share them with students for easy test administration.</li>
+                                <li>Students log in, access the questions, submit their answers, and receive results efficiently.</li>
+                                <li>The platform offers a streamlined and interactive testing experience for both teachers and students.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>                    
+                </div>
+            </section>
+            
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                    
+                    </form>
+                    <div class="contact__linkedin">
+                        <a href="https://www.linkedin.com/in/dhytharam-sampath-reddy-2a6067319/" target="_blank" class="linkedin__button button">
+                            Connect me on LinkedIn
+                        </a>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sampath</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;  All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
